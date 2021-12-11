@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  font-family: "poppins", "trebuchet ms", sans-serif;
+}
+.shopping_cart{
+  width: 40%;
+  margin: 3em auto;
+  background-color: #fff;
+  border-radius: 1em;
+  padding: 2em 0;
+  box-shadow: -.1em .2em 1.5em #808080;
+}
+.shopping_cart h1{
+  text-align: center;
+}
+.item, .item_heading, .item_button{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item_heading{
+  margin: 1em auto;
+}
+.item{
+  border-radius: 1em;
+  padding: 1em;
+}
+.item:hover{
+  cursor: pointer;
+  background-color: rgba(0, 0, 255, 0.2);
+  transition: .3s;
+}
+.item h2, .item_heading h2{
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item i{
+  width: 5%;
+}
+.item_button{
+  padding: .5em 0;
+}
+.item_button button{
+  width: 70%;
+  padding: 1em 0;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 1em;
+  margin: 0 15%;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+}
+.fa-check-circle{
+  color: #007bff;
+}
+html {
+  background: url(MUst-campus.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
