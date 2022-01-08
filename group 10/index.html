@@ -5,6 +5,12 @@
     <title>Selection</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font-awesome-4.7/css/font-awesome.css">
+<script>
+function displayAlert(){
+alert("please wait for order confirmation") 
+}
+
+</script>
   </head>
   <body>
       <div class="shopping_cart">
@@ -53,7 +59,7 @@
           <h2><span class="price">100</span></h2><i class="fa fa-circle-o"></i>
         </section>
         <section class="item_button">
-          <button type="button" id="proceed_prices"><span id="numberSelected">0</span> Selected (MWK <span id="total">0</span>)</button>
+          <button onclick="displayAlert()" type="button" id="proceed_prices"><span id="numberSelected">0</span> Selected (MWK <span id="total">0</span>)</button>
         </section>
       </div>
     <script src="script.js" charset="utf-8"></script>
